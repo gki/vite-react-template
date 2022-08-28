@@ -7,9 +7,12 @@ export default defineConfig({
   server: {
     open: true
   },
+  base: './',
   root: './src',
   publicDir: '../public',
   build: {
-    outDir: '../dist'
-  }
+    outDir: '../dist',
+    emptyOutDir: true
+  },
+  envDir: '../env'
 })
