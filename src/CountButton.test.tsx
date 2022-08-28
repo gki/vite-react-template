@@ -2,6 +2,9 @@ import { act, render, screen } from '@testing-library/react';
 import CountButton from './CountButton';
 import '@testing-library/jest-dom';
 
+/**
+ * @group componenttest
+ */
 describe('CountButton', () => {
   it('can be set initial value', () => {
     render(<CountButton start={3} />);

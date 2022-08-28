@@ -9,4 +9,4 @@ Objective|Tool
 UI|React.js (SPA)
 Lint|ESLint, XO
 Formatter|Prettier
-Unit Test|Jest
+Unit Test|Jest, React Testing Library
