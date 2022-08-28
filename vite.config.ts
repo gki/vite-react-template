@@ -1,19 +1,19 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 import checker from 'vite-plugin-checker';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [checker({ typescript: true }), react()],
   server: {
-    open: true
+    open: true,
   },
   base: './',
   root: './src',
   publicDir: '../public',
   build: {
     outDir: '../dist',
-    emptyOutDir: true
+    emptyOutDir: true,
   },
-  envDir: '../env'
-})
+  envDir: '../env',
+});
